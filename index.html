@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sai Sandeep </title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          <strong>A Sai Sandeep</strong>
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          <a style="text-decoration: none; color: white;" href="mailto:saisandeep3103@gmail.com">saisandeep3103@gmail.com</a>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +91 9885589330
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendation</a>
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="html_finalprojimages/DSC_1855-modified.png" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hello, I'm Sai Sandeep! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am a front-Developer with 2 years experience and has 3 years experience in both photos & videos editing.
+            I have worked with <a style="text-decoration: none;" href="https://digitalbhem.com/">Digital Bhem</a> and created many Responsive Websites inaddition to that I also worked with <a style="text-decoration: none;" href="https://internshala.com/company/studyowl-education-private-limited-1564133756/">Study Owl Education Private Limited</a> & developed a "Language Translator Bot using NLP". 
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div> 
+        
+        <div class="skill">
+          <img src="html_finalprojimages/CSS3.png"/>
+          <h6>CSS</h6>
+          <p>2 years experience</p>
+        </div> 
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>2 years experience</p>
+        </div> 
+        
+        <div class="skill">
+          <img src="html_finalprojimages/java.png"/>
+          <h6>Java</h6>
+          <p>3 years experience</p>
+        </div> 
+
+        <div class="skill">
+          <img src="html_finalprojimages/python.jpeg"/>
+          <h6>Python</h6>
+          <p>3 years experience</p>
+        </div> 
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Language Translator Chatbot</h3>
+            <ul>
+              <li>Developed a secure Language Translator ChatBot integrated with Telegram for an langauge convertion into any langauge using HTML, CSS, JavaScript and NLP </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Hotel Registartion Form</h3>
+            <ul>
+              <li>Developed a Responsive Website for booking Hotel rooms with different amenities.</li>
+              <li><a href="https://github.com/sandeep-197/DigitalBhem-Task01.github.io">Look here!</a></li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>AURA AI Technical Symposium website</h3>
+            <ul>
+              <li>Created a user-friednly Responsive website for college events using HTML,CSS,JavaScript.</li>
+              <li><a style="text-decoration: none;" href="https://aura2k24.netlify.app/">AURA2K24</a> check the website.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Sandeep is a very quick learner and quickly grasps key concepts of Web development. 
+          He got a great attitude & he is an excellent team player. 
+          He has a curious mind and asks the right question.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Sandeep has been an awesome experience. 
+          He is highly knowledgable and always goes the extra step to make sure everything is right. 
+          For any future projects that need his expertise I would definitely want to work with her again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Sai Sandeep during the initial phase of our venture which needed Web development. 
+          he is a committed resource who has in depth knowledge about the domain. 
+          he will be an asset for any organisation! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    
+
+    
+  </body>
+</html>

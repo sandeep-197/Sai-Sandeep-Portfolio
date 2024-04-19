@@ -233,6 +233,9 @@ h2 {
   bottom: 3%;
   cursor: pointer;
 }
+.iconbutton img{
+  width: 14px;
+}
 
 /* Form Pop-up */
 
